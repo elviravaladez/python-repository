@@ -35,7 +35,7 @@ Python Data Types
 |Floating Point 🎈|float|Numbers with a decimal point 1.2, 120.5, 500.0|
 |Strings 🧵|str|Ordered sequence of characters: "hi" 'hola' '4029'|
 |Lists 📝|list|Ordered sequence of objects: [50,"hola",512.0]|
-|Dictionaries 📕|dict|Unordered Key:Value pairs: {"mykey":"value","name","Elvira"}|
+|Dictionaries 📕|dict|Unordered Key:Value pairs: {"mykey":"value","name":"Elvira"}|
 |Tuples 🛁|tup|Ordered immutable sequence of objects:(23,"hola",313.4)|
 |Sets 👡👠|set|Unordered collection of unique objects: {"a","b"}|
 |Booleans ✅ 🚫️|bool|Logical value indicating True or False|
