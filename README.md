@@ -31,6 +31,7 @@ This section will be updated to include some of my major learnings while learnin
 
 ```python
 print('Some Python code I am proud of 🐍')
+
 ```
 
 ### Continued Development
