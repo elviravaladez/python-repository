@@ -30,7 +30,7 @@ Understand the fundamentals of Python.
 This section will be updated to include some of my major learnings while learning Python. I will be writing these out and providing code samples of areas I would like to highlight to reinforce my knowledge. When major learnings are shared, they will look similar to the code snippet below 😊
 
 ```python
-print("Some Python code I am proud of 🐍")
+print('Some Python code I am proud of 🐍')
 ```
 
 ### Continued Development
