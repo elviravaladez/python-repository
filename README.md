@@ -41,6 +41,16 @@ Python Data Types
 |Booleans ✅ 🚫️|bool|Logical value indicating True or False|
 
 
+Variables
+
+* Recommended to use lowercase names
+* Cannot start with a number
+* No spaces. An underscore is recommended instead: _
+* Does not allow certain symbols
+* Python is dynamically typed
+  * You can reassign variables to different data types
+  * Python is very flexible in assigning data types
+
 ### Continued Development
 
 This section will outline areas that I want to continue focusing on in future projects.
