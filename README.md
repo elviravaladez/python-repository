@@ -27,12 +27,19 @@ Understand the fundamentals of Python.
 
 ### What I Learned
 
-This section will be updated to include some of my major learnings while learning Python. I will be writing these out and providing code samples of areas I would like to highlight to reinforce my knowledge. When major learnings are shared, they will look similar to the code snippet below 😊
+Python Data Types
 
-```python
-print('Some Python code I am proud of 🐍')
+|Name|Type|Description|
+|---|---|---|
+|Integers 🔢|int|Whole numbers, such as: 1, 120, 300|
+|Floating Point 🎈|float|Numbers with a decimal point 1.2, 120.5, 500.0|
+|Strings 🧵|str|Ordered sequence of characters: "hi" 'hola' '4029'|
+|Lists 📝|list|Ordered sequence of objects: [50,"hola",512.0]|
+|Dictionaries 📕|dict|Unordered Key:Value pairs: {"mykey":"value","name","Elvira"}|
+|Tuples 🛁|tup|Ordered immutable sequence of objects:(23,"hola",313.4)|
+|Sets 👡👠|set|Unordered collection of unique objects: {"a","b"}|
+|Booleans ✅ 🚫️|bool|Logical value indicating True or False|
 
-```
 
 ### Continued Development
 
