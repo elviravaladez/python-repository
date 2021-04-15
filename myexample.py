@@ -31,4 +31,3 @@ my_taxes = my_income * tax_rate
 
 print(my_taxes)
 # 50.0
-
