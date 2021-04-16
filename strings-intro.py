@@ -152,3 +152,34 @@ print(y.split())
 print(y.split('i'))
 # ['H', ' th', 's ', 's a str', 'ng']
 
+print('This is a string {}'.format('INSERTED'))
+# This is a string INSERTED
+
+print('The {2} {1} {0}'.format('fox', 'brown', 'quick'))
+# The quick brown fox
+
+print('The {0} {0} {0}'.format('fox', 'brown', 'quick'))
+# The fox fox fox
+
+# You can also assign keywords
+print('The {q} {b} {f}'.format(f='fox', b='brown', q='quick'))
+# The quick brown fox
+
+print('The {f} {f} {f}'.format(f='fox', b='brown', q='quick'))
+# The fox fox fox
+
+# FLOAT FORMATTING FOLLOWS "{value:width.precision f}
+result = 100/777
+
+print("The result was {r}".format(r=result))
+# The result was 0.1287001287001287
+
+print("The result was {r:1.3f}".format(r=result))
+# The result was 0.129
+
+print("The result was {r:10.3f}".format(r=result))
+# The result was      0.129
+
+print("The result was {r:1.5f}".format(r=result))
+# The result was 0.12870
+
