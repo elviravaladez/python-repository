@@ -29,3 +29,67 @@ print('hello \nworld')
 
 print(len("hello"))
 # 5
+
+
+# INDEXING WITH STRINGS
+my_string = 'Hello World'
+
+print(my_string[0])
+# H
+
+print(my_string[8])
+# r
+
+# reverse indexing
+print(my_string[-1])
+# d
+
+print(my_string[-3])
+# r
+
+my_string = 'abcdefghijk'
+
+print(my_string[2])
+# c
+
+print(my_string[2:])
+# cdefghijk
+
+
+# stop index goes up to 3 but does not include it
+print(my_string[:3])
+# abc
+
+
+# Getting subsection that's in the middle of the string
+print(my_string[3:6])
+# def
+
+print(my_string[1:3])
+# bc
+
+# Getting everything from the beginning to the end of the string
+# step size of one is the default
+print(my_string[::])
+# abcdefghijk
+
+
+# step size of two (skips every other letter)
+print(my_string[::2])
+# acegik
+
+print(my_string[::3])
+# adgj
+
+# [start:stop:step size]
+
+
+# Can do this as well
+
+# How to reverse a string with Python ;)
+print(my_string[::-1])
+# kjihgfedcba
+
+string_slice = 'tinker'
+print(string_slice[1:4])
+# ink
