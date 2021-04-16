@@ -93,3 +93,62 @@ print(my_string[::-1])
 string_slice = 'tinker'
 print(string_slice[1:4])
 # ink
+
+
+# IMMUTABILITY
+# Strings cannot MUTATE
+
+name = "Donny"
+
+# name[4] = 't' <= this does not work!
+
+last_letters = name[1:]
+# onny
+
+print('B' + last_letters)
+# Bonny
+
+x = 'Hello World '
+
+print(x + "it is beautiful outside")
+# Hello World it is beautiful outside
+
+x = x + "it is beautiful outside"
+
+print(x)
+
+
+# YOU CAN DO MULTIPLICATION CONCATENATION
+
+letter = 'z'
+print(letter * 10)
+# zzzzzzzzzz
+
+# You will get errors if you try to concatenate a number with a string
+print(2 + 3)
+# 5
+
+print('2' + '3')
+# 23
+
+x = 'Hello World'
+
+print(x.upper())
+# HELLO WORLD
+
+print(x.lower())
+# hello world
+
+print(x.split())
+# Creates a list based on the white space or based on the letters passed
+# ['Hello', 'World']
+
+y = "Hi this is a string"
+print(y.split())
+# ['Hi', 'this', 'is', 'a', 'string']
+
+
+# SPLITS AT EVERY LETTER "I"
+print(y.split('i'))
+# ['H', ' th', 's ', 's a str', 'ng']
+
