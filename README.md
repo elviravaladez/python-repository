@@ -1,6 +1,6 @@
 # Python
 
-This is a repository to document my process while learning Python.
+This is a repository to document my progress while learning Python.
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@ Understand the fundamentals of Python.
 
 ### What I Learned
 
-Python Data Types
+#### Data Types
 
 |Name|Type|Description|
 |---|---|---|
@@ -41,15 +41,19 @@ Python Data Types
 |Booleans ✅ 🚫️|bool|Logical value indicating True or False|
 
 
-Variables
+#### Variables
 
-* Recommended to use lowercase names
+* It is recommended that variable names be lowercase
 * Cannot start with a number
 * No spaces. An underscore is recommended instead: _
 * Does not allow certain symbols
 * Python is dynamically typed
   * You can reassign variables to different data types
   * Python is very flexible in assigning data types
+
+#### Strings
+
+Today I learned that Python has reverse indexing. One example of when this can be useful is when you want to grab the last letter of a string. In this case, you would use -1.
 
 ### Continued Development
 
