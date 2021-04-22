@@ -183,3 +183,19 @@ print("The result was {r:10.3f}".format(r=result))
 print("The result was {r:1.5f}".format(r=result))
 # The result was 0.12870
 
+
+# THIS IS THE F-STRING METHOD (f-string literals)
+name = "Sam"
+
+print(f'Hello, his name is {name}')
+# Hello, his name is Sam
+
+name = 'Sam'
+age = 3
+print(f'{name} is {age} years old.')
+# Sam is 3 years old.
+
+# A resource for print formatting
+# https://pyformat.info/
+
+print('Python rules!')
