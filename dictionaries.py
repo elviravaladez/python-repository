@@ -33,7 +33,7 @@ print(d['k3']['insideKey'])
 print(d['k2'][2])
 # 2
 
-d = {'key1': ['a', 'b','c']}
+d = {'key1': ['a', 'b', 'c']}
 
 my_list = d['key1']
 
@@ -53,7 +53,7 @@ print(d['key1'][2].upper())
 # C
 
 
-d = {'k1':100, 'k2':200}
+d = {'k1': 100, 'k2': 200}
 
 print(d)
 # {'k1': 100, 'k2': 200}
