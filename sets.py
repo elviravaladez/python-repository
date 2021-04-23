@@ -23,3 +23,6 @@ print(set(my_list))
 # {1, 2, 3}
 
 # Sets don't have an order
+
+print(set([1, 1, 2, 3]))
+# {1, 2, 3}
