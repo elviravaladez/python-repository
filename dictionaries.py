@@ -51,3 +51,30 @@ print(letter.upper())
 # IN ONE STEP
 print(d['key1'][2].upper())
 # C
+
+
+d = {'k1':100, 'k2':200}
+
+print(d)
+# {'k1': 100, 'k2': 200}
+
+# I want to add 'k3'
+
+d['k3'] = 300
+
+print(d)
+# {'k1': 100, 'k2': 200, 'k3': 300}
+
+d['k1'] = 'NEW VALUE'
+
+print(d)
+# {'k1': 'NEW VALUE', 'k2': 200, 'k3': 300}
+
+print(d.keys())
+# dict_keys(['k1', 'k2', 'k3'])
+
+print(d.values())
+# dict_values(['NEW VALUE', 200, 300])
+
+print(d.items())
+# dict_items([('k1', 'NEW VALUE'), ('k2', 200), ('k3', 300)])
