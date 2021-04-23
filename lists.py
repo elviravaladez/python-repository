@@ -122,3 +122,7 @@ new_number_list = number_list[:3] + number_list[7:]
 # # Display sliced list
 print(new_number_list)
 # [1, 2, 3, 8, 9]
+
+mixed_string = [1, 'two', 3.14159]
+
+print(mixed_string)
