@@ -78,3 +78,8 @@ print(d.values())
 
 print(d.items())
 # dict_items([('k1', 'NEW VALUE'), ('k2', 200), ('k3', 300)])
+
+d = {'k1': [1, 2, 3]}
+
+print(d['k1'][1])
+# 2
